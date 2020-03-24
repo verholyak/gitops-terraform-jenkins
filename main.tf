@@ -1,9 +1,9 @@
 # Terraform state will be stored in S3
  terraform {
  backend "s3" {
-   bucket = "terraform-bucket-vova"
+   bucket = "task4.website"
    key    = "terraform.tfstate"
-   region = "eu-central-1"
+   region = "eu-west-1"
  }
 }
 
