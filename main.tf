@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 # Create EC2 instance
-esource "aws_instance" "my_webserver" {
+esource "aws_instance" "default" {
   ami           = "ami-0ba441bdd9e494102"
   instance_type = "t2.micro"
 # resource "aws_instance" "default" {
